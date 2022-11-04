@@ -1,5 +1,3 @@
-# projects
-
 <h1 align="center">Hi 👋, I'm Allan Hillman, better known as "mrwebwork"</h1>
 <h3 align="center">Always eager and actively learning more about web and mobile development</h3>
 

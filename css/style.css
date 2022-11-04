@@ -1,0 +1,220 @@
+@import 'font-sizes.css';
+
+/*#region General Site Colors*/
+:root{
+    /* Royal Purple color*/
+    --royal-purp: #7851A9;
+
+    /* Main blue bg */
+    --dark-blue: #2E5090;
+
+    /* Button and mics blue bg */
+    --navy-blue: #5D8AA8;
+
+    /* Main green bg */
+    --green: #01796F;
+
+    /* Off Green */
+    --off-green: #29AB87;
+
+    /* Off white bg? */
+    --off-white: #F7F7F7;
+
+    /* Light gray text color */
+    --light-gray: #DBD7D2;
+
+    /* Black Text color */
+    --black: #282C35;
+}
+
+/*#endregion General Site Colors*/
+
+/* #region Global Styles */
+
+h1, h4 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: var(--black);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* #endregion Global Styles */
+
+/*#region Colors*/
+
+/* Text colors */
+.txt-royal-purp {
+    color: var(--royal-purp);
+}
+
+.txt-dark-blue{
+    color: var(--dark-blue);
+}
+.txt-off-navy{
+    color: var(--navy-blue);
+}
+.txt-green{
+    color: var(--green);
+}
+.txt-off-green{
+    color: var(--off-green);
+}
+.txt-off-white{
+    color: var(--off-white);
+}
+.txt-light-gray{
+    color: var(--light-gray);
+}
+.txt-black{
+    color: var(--black);
+}
+
+/* Text Link Colors */
+.link-txt-off-green {
+    color: var(--off-green);
+    text-decoration: none; 
+}
+.link-txt-off-white {
+  /* changed for hover class to stay same */
+  color: var(--navy-blue);
+  /* color: var(--off-white); */
+  text-decoration: none; 
+}
+
+.link-txt-off-white-2 {
+  color: var(--off-white);
+  text-decoration: none; 
+}
+
+/* Hover colors */
+.hover-txt-nav:hover{
+    color: var(--light-gray);
+    text-decoration: none; 
+}
+
+.link-txt-off-white-2:hover {
+  color: var(--off-green);
+  text-decoration: none;
+}
+.link-txt-off-green:hover {
+  color: var(--off-green);
+  text-decoration: none;
+}
+
+.link-txt-off-white:hover {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+/* Custom Background Colors */
+.bg-green{
+    background-color: var(--green);
+}
+.bg-off-green{
+  background-color: var(--off-green);
+}
+.bg-dark-blue{
+    background-color: var(--dark-blue);
+}
+.bg-off-white{
+    background-color: var(--off-white);
+}
+.bg-off-navy{
+    background-color: var(--navy-blue);
+}
+
+/* Button Colors */
+.btn-white{
+    color: var(--navy-blue);
+    background-color: var(--off-white);
+    border-color: var(--navy-blue);
+}
+.btn-white:hover{
+    background-color: var(--navy-blue);
+    border-color: var(--navy-blue);
+    color: var(--off-white);
+}
+
+.btn-white-2{
+  color: var(--navy-blue);
+  background-color: var(--off-white);
+  border-color: var(--green);
+}
+.btn-white-2:hover{
+  background-color: var(--green);
+  border-color: var(--off-green);
+  color: var(--off-white);
+}
+
+.btn-white-3{
+  color: var(--navy-blue);
+  background-color: var(--off-white);
+  border-color:  var(--green);
+}
+.btn-white-3:hover{
+  background-color: var(--green);
+  border-color: var(--off-green);
+  color: var(--off-white);
+}
+
+.btn-blue{
+    background-color: var(--navy-blue);
+    border-color: var(--navy-blue);
+    color: var(--off-white);
+}
+.btn-blue:hover{
+    background-color: var(--off-white);
+    color: var(--navy-blue);
+}
+
+.btn-blue-2{
+  background-color: var(--navy-blue);
+  border-color: var(--navy-blue);
+  color: var(--off-white);
+}
+.btn-blue-2:hover{
+  background-color: var(--green);
+  color: var(--off-white);
+}
+
+.btn-blue-3{
+    background-color: var(--black);
+    border-color: var(--off-green);
+    color: var(--off-white);
+  }
+  .btn-blue-3:hover{
+    background-color: var(--royal-purp);
+    border-color: var(--navy-blue);
+    color: var(--off-white);
+  }
+
+
+/*#endregion Colors*/
+
+/* #region Element Styles */
+
+.ap-img {
+    max-width: 135px;
+}
+
+.web-btn-txt {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+    .web-btn {
+      width: 375px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    hr {
+      max-width: 750px;
+    }
+}
+
+/* #endregion Element Styles */

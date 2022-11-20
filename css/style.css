@@ -2,26 +2,26 @@
 
 /*#region General Site Colors*/
 :root{
-    /* Royal Purple color*/
-    --royal-purp: #7851A9;
+    /* Royal Red color*/
+    --royal-red: #F67280;
 
     /* Main blue bg */
-    --dark-blue: #2E5090;
+    --dark-blue: #14274E;
 
     /* Button and mics blue bg */
-    --navy-blue: #5D8AA8;
+    --navy-blue: #394867;
 
     /* Main green bg */
     --green: #01796F;
 
-    /* Off Green */
-    --off-green: #29AB87;
+    /* Off Red */
+    --off-red: #C06C84;
 
     /* Off white bg? */
-    --off-white: #F7F7F7;
+    --off-white: #F1F6F9;
 
     /* Light gray text color */
-    --light-gray: #DBD7D2;
+    --light-gray: #9BA4B4;
 
     /* Black Text color */
     --black: #282C35;
@@ -48,8 +48,8 @@ p {
 /*#region Colors*/
 
 /* Text colors */
-.txt-royal-purp {
-    color: var(--royal-purp);
+.txt-royal-red {
+    color: var(--royal-red);
 }
 
 .txt-dark-blue{
@@ -61,8 +61,8 @@ p {
 .txt-green{
     color: var(--green);
 }
-.txt-off-green{
-    color: var(--off-green);
+.txt-off-red{
+    color: var(--off-red);
 }
 .txt-off-white{
     color: var(--off-white);
@@ -75,9 +75,14 @@ p {
 }
 
 /* Text Link Colors */
-.link-txt-off-green {
-    color: var(--off-green);
+.link-txt-off-red {
+    color: var(--off-red);
     text-decoration: none; 
+}
+
+.link-txt-off-purp {
+  color: var(--royal-red);
+  text-decoration: none; 
 }
 .link-txt-off-white {
   /* changed for hover class to stay same */
@@ -91,18 +96,30 @@ p {
   text-decoration: none; 
 }
 
+.link-txt-off-white-3 {
+  /* changed for hover class to stay same */
+  color: var(--navy-blue);
+  /* color: var(--off-white); */
+  text-decoration: none; 
+}
+
 /* Hover colors */
 .hover-txt-nav:hover{
     color: var(--light-gray);
     text-decoration: none; 
 }
 
-.link-txt-off-white-2:hover {
-  color: var(--off-green);
+.link-txt-off-purp:hover {
+  color: var(--off-white);
   text-decoration: none;
 }
-.link-txt-off-green:hover {
-  color: var(--off-green);
+
+.link-txt-off-white-2:hover {
+  color: var(--off-red);
+  text-decoration: none;
+}
+.link-txt-off-red:hover {
+  color: var(--off-white);
   text-decoration: none;
 }
 
@@ -111,12 +128,17 @@ p {
   text-decoration: none;
 }
 
+.link-txt-off-white-3:hover {
+  color: var(--off-red);
+  text-decoration: none;
+}
+
 /* Custom Background Colors */
 .bg-green{
     background-color: var(--green);
 }
-.bg-off-green{
-  background-color: var(--off-green);
+.bg-off-red{
+  background-color: var(--off-red);
 }
 .bg-dark-blue{
     background-color: var(--dark-blue);
@@ -126,6 +148,10 @@ p {
 }
 .bg-off-navy{
     background-color: var(--navy-blue);
+}
+
+.angled-gradient {
+  background: linear-gradient(-102deg, var(--dark-blue),var(--navy-blue), var(--light-gray));
 }
 
 /* Button Colors */
@@ -147,7 +173,7 @@ p {
 }
 .btn-white-2:hover{
   background-color: var(--green);
-  border-color: var(--off-green);
+  border-color: var(--off-red);
   color: var(--off-white);
 }
 
@@ -158,7 +184,7 @@ p {
 }
 .btn-white-3:hover{
   background-color: var(--green);
-  border-color: var(--off-green);
+  border-color: var(--off-red);
   color: var(--off-white);
 }
 
@@ -184,11 +210,11 @@ p {
 
 .btn-blue-3{
     background-color: var(--black);
-    border-color: var(--off-green);
+    border-color: var(--off-red);
     color: var(--off-white);
   }
   .btn-blue-3:hover{
-    background-color: var(--royal-purp);
+    background-color: var(--royal-red);
     border-color: var(--navy-blue);
     color: var(--off-white);
   }

@@ -154,6 +154,16 @@ p {
   background: linear-gradient(-102deg, var(--dark-blue),var(--navy-blue), var(--light-gray));
 }
 
+.angled-gradient-2 {
+  background: linear-gradient(-102deg, var(--dark-blue),var(--navy-blue), var(--light-gray));
+}
+
+@media screen and (min-width: 992px) {
+  .angled-gradient-2 {
+    background: unset;
+  }
+}
+
 /* Button Colors */
 .btn-white{
     color: var(--navy-blue);

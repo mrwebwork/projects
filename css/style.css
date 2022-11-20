@@ -34,10 +34,11 @@
 h1, h4 {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    color: var(--off-white);
 }
 
 p {
-    color: var(--black);
+  color: var(--off-white);
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }

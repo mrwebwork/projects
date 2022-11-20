@@ -23,6 +23,15 @@
 
     /* Black Text color */
     --black: #282C35;
+
+    /* GitHub Colors */
+    --off-black: ##171515;
+
+    /* Fiverr Colors */
+    --off-green: #00b22d;
+
+    /* LinkedIn Blue */
+    --off-blue: #0077b5;
 }
 
 /*#endregion General Site Colors*/
@@ -39,6 +48,14 @@ p {
   color: var(--off-white);
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .card:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
 
 /* #endregion Global Styles */
@@ -71,8 +88,42 @@ p {
 .txt-black{
     color: var(--black);
 }
+.txt-off-black {
+  color: var(--off-black);
+}
+
+.txt-off-green {
+  color: var(--off-green);
+}
+
+.txt-off-blue {
+  color: var(--off-blue);
+}
 
 /* Text Link Colors */
+
+.link-txt-off-black {
+  color: var(--black);
+  text-decoration: none; 
+}
+
+.link-txt-off-blue {
+  color: var(--off-blue);
+  text-decoration: none; 
+}
+
+.link-txt-off-green {
+  color: var(--off-green);
+  font-weight: 700;
+  text-decoration: none; 
+}
+
+.link-txt-off-black {
+  color: var(--off-white);
+  font-weight: 700;
+  text-decoration: none; 
+}
+
 .link-txt-off-red {
     color: var(--off-red);
     text-decoration: none; 
@@ -106,6 +157,24 @@ p {
     color: var(--light-gray);
     text-decoration: none; 
 }
+
+.link-txt-off-blue:hover {
+  color: var(--off-white);
+  text-decoration: none; 
+}
+
+.link-txt-off-green:hover {
+  color: var(--light-gray);
+  font-weight: 700;
+  text-decoration: none; 
+}
+
+.link-txt-off-black:hover {
+  color: var(--light-gray);
+  font-weight: 700;
+  text-decoration: none; 
+}
+
 
 .link-txt-off-purp:hover {
   color: var(--off-white);

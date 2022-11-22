@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mrwebwork" alt="mrwebwork" /></a> </p>
 
-- 🌱 I’m currently learning **React.js & Web 3.0**
+- 🌱 I’m currently learning **React.js, Web 3.0, Minting NFT's, and Python**
 
 - 📫 How to reach me **tech@allanswebwork.info**
 

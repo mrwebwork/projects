@@ -164,13 +164,13 @@ p {
 }
 
 .link-txt-off-green:hover {
-  color: var(--light-gray);
+  color: #19b942;
   font-weight: 700;
   text-decoration: none; 
 }
 
 .link-txt-off-black:hover {
-  color: var(--light-gray);
+  color: #fff;
   font-weight: 700;
   text-decoration: none; 
 }
@@ -196,7 +196,7 @@ p {
 }
 
 .link-txt-off-white-3:hover {
-  color: var(--off-red);
+  color: var(--dark-blue);
   text-decoration: none;
 }
 

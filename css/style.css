@@ -129,11 +129,16 @@ p {
 .link-txt-off-red {
     color: var(--off-red);
     text-decoration: none; 
+    font-family: 'Montserrat';
+   
 }
 
 .link-txt-red {
   color: var(--royal-red);
   text-decoration: none; 
+  /* testing font-family mobile */
+  /* font-family: 'Montserrat';
+  font-weight: 900; */
   
 }
 .link-txt-off-white {

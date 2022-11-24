@@ -158,8 +158,7 @@ p {
 /* Hover colors */
 
 .link-txt-red:hover{
-  color: #ff3232
-  ;
+  color: #ff3232;
   text-decoration: none; 
 }
 

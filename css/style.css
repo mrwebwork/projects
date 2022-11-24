@@ -40,14 +40,14 @@
 
 h1, h4 {
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
     color: var(--off-white);
 }
 
 p {
   color: var(--off-white);
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 @media screen and (min-width: 1200px) {

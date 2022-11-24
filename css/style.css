@@ -1,7 +1,7 @@
 /*#region General Site Colors*/
 :root{
     /* Royal Red color*/
-    --royal-red: #F67280;
+    --royal-red: #FF0000;
 
     /* Main blue bg */
     --dark-blue: #14274E;
@@ -100,6 +100,8 @@ p {
   color: var(--off-blue);
 }
 
+
+
 /* Text Link Colors */
 
 .link-txt-off-black {
@@ -129,9 +131,10 @@ p {
     text-decoration: none; 
 }
 
-.link-txt-off-purp {
+.link-txt-red {
   color: var(--royal-red);
   text-decoration: none; 
+  font-weight: 600;
 }
 .link-txt-off-white {
   /* changed for hover class to stay same */
@@ -153,6 +156,13 @@ p {
 }
 
 /* Hover colors */
+
+.link-txt-red:hover{
+  color: #ff3232
+  ;
+  text-decoration: none; 
+}
+
 .hover-txt-nav:hover{
     color: var(--light-gray);
     text-decoration: none; 

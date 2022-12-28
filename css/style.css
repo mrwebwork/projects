@@ -44,7 +44,11 @@ h1, h4 {
     color: var(--off-white);
 }
 
-p {
+h5 {
+  font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+p, a {
   color: var(--off-white);
     font-weight: 500;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;

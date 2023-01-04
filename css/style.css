@@ -19,7 +19,7 @@
     --off-white: #F1F6F9;
 
     /* Light gray text color */
-    --light-gray: #9BA4B4;
+    --light-gray: #b9bbbd;
 
     /* Black Text color */
     --black: #282C35;
@@ -44,10 +44,18 @@ h1, h4 {
     color: var(--off-white);
 }
 
-p {
+h5 {
+  font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+p, a {
   color: var(--off-white);
     font-weight: 500;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.txt-bold{
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1200px) {
@@ -121,7 +129,7 @@ p {
 }
 
 .link-txt-off-black {
-  color: var(--off-white);
+  color: var(--light-gray);
   
   text-decoration: none; 
 }
@@ -163,7 +171,7 @@ p {
 /* Hover colors */
 
 .link-txt-red:hover{
-  color: #ff3232;
+  color: #fff;
   text-decoration: none; 
 }
 
@@ -178,7 +186,7 @@ p {
 }
 
 .link-txt-off-green:hover {
-  color: #19b942;
+  color: #fff;
   
   text-decoration: none; 
 }
@@ -314,6 +322,12 @@ p {
 /*#endregion Colors*/
 
 /* #region Element Styles */
+
+@media screen and (min-width: 992px) {
+  #card-head {
+    text-align: left !important;
+  }
+}
 
 .web-btn-txt {
     text-decoration: none;

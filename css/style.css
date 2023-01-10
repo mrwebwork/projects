@@ -1,7 +1,7 @@
 /*#region General Site Colors*/
 :root{
     /* Royal Red color*/
-    --royal-red: #F67280;
+    --royal-red: #FF0000;
 
     /* Main blue bg */
     --dark-blue: #14274E;
@@ -19,7 +19,7 @@
     --off-white: #F1F6F9;
 
     /* Light gray text color */
-    --light-gray: #9BA4B4;
+    --light-gray: #b9bbbd;
 
     /* Black Text color */
     --black: #282C35;
@@ -39,15 +39,50 @@
 /* #region Global Styles */
 
 h1, h4 {
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
     color: var(--off-white);
 }
 
-p {
+h5 {
+  font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+p, a {
   color: var(--off-white);
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.top-link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.top-link:hover {
+  color: #000;
+}
+
+.top-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.top-link:hover::before {
+  transform: scaleX(1);
+}
+
+.txt-bold{
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1200px) {
@@ -100,6 +135,8 @@ p {
   color: var(--off-blue);
 }
 
+
+
 /* Text Link Colors */
 
 .link-txt-off-black {
@@ -114,24 +151,30 @@ p {
 
 .link-txt-off-green {
   color: var(--off-green);
-  font-weight: 700;
+  
   text-decoration: none; 
 }
 
 .link-txt-off-black {
-  color: var(--off-white);
-  font-weight: 700;
+  color: var(--light-gray);
+  
   text-decoration: none; 
 }
 
 .link-txt-off-red {
     color: var(--off-red);
     text-decoration: none; 
+    font-family: 'Montserrat';
+   
 }
 
-.link-txt-off-purp {
+.link-txt-red {
   color: var(--royal-red);
   text-decoration: none; 
+  /* testing font-family mobile */
+  /* font-family: 'Montserrat';
+  font-weight: 900; */
+  
 }
 .link-txt-off-white {
   /* changed for hover class to stay same */
@@ -153,6 +196,12 @@ p {
 }
 
 /* Hover colors */
+
+.link-txt-red:hover{
+  color: #fff;
+  text-decoration: none; 
+}
+
 .hover-txt-nav:hover{
     color: var(--light-gray);
     text-decoration: none; 
@@ -164,14 +213,14 @@ p {
 }
 
 .link-txt-off-green:hover {
-  color: var(--light-gray);
-  font-weight: 700;
+  color: #fff;
+  
   text-decoration: none; 
 }
 
 .link-txt-off-black:hover {
-  color: var(--light-gray);
-  font-weight: 700;
+  color: #fff;
+  
   text-decoration: none; 
 }
 
@@ -182,7 +231,7 @@ p {
 }
 
 .link-txt-off-white-2:hover {
-  color: var(--off-red);
+  color: var(--off-blue);
   text-decoration: none;
 }
 .link-txt-off-red:hover {
@@ -196,7 +245,7 @@ p {
 }
 
 .link-txt-off-white-3:hover {
-  color: var(--off-red);
+  color: var(--dark-blue);
   text-decoration: none;
 }
 
@@ -300,6 +349,12 @@ p {
 /*#endregion Colors*/
 
 /* #region Element Styles */
+
+@media screen and (min-width: 992px) {
+  #card-head {
+    text-align: left !important;
+  }
+}
 
 .web-btn-txt {
     text-decoration: none;

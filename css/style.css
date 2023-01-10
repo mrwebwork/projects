@@ -231,7 +231,7 @@ p, a {
 }
 
 .link-txt-off-white-2:hover {
-  color: var(--off-red);
+  color: var(--off-blue);
   text-decoration: none;
 }
 .link-txt-off-red:hover {

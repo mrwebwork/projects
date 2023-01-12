@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Allan Hillman, better known as "mrwebwork"</h1>
-<h3 align="center">Always eager and actively learning more about web and mobile development</h3>
+<h1 align="center">Hi 👋, I'm Allan Hillman. I created this site to replace my Linktree and display my personal web and client websites.</h1>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mrwebwork" alt="mrwebwork" /></a> </p>
 

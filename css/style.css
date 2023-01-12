@@ -4,7 +4,7 @@
     --royal-red: #FF0000;
 
     /* Main blue bg */
-    --dark-blue: #14274E;
+    --dark-blue: #0c394d;
 
     /* Button and mics blue bg */
     --navy-blue: #394867;
@@ -52,6 +52,10 @@ p, a {
   color: var(--off-white);
     font-weight: 500;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.bg-home{
+  background-color: var(--dark-blue);
 }
 
 .top-link {
@@ -267,7 +271,7 @@ p, a {
 }
 
 .angled-gradient {
-  background: linear-gradient(-102deg, var(--dark-blue),var(--navy-blue), var(--light-gray));
+  background: linear-gradient(-150deg, var(--dark-blue));
 }
 
 .angled-gradient-2 {
